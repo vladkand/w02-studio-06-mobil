@@ -1,0 +1,13 @@
+.header {
+   //     position: fixed;
+
+   border-bottom: 2px solid #ececec;
+   //    z-index: 2;
+   //    width: 100%;
+   //    top: 0;
+   //    left: 0;
+}
+
+.header__wrapper {
+   @include flexFull();
+}

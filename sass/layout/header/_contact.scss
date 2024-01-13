@@ -1,0 +1,40 @@
+//
+.contaсt__list {
+   display: flex;
+   margin-left: auto;
+}
+
+.contact__item {
+   & + & {
+      margin-left: 30px;
+   }
+}
+
+.contact__link {
+   display: flex;
+   & span {
+      margin-left: 10px;
+   }
+
+   font-family: Roboto;
+   // font-size: 14px;
+   font-style: normal;
+   font-weight: 500;
+   line-height: normal;
+   letter-spacing: 0.28px;
+
+   color: $color-txt-main;
+
+   transition: color 500ms $cubic-function;
+
+   &:focus,
+   &:hover {
+      color: $color-accent;
+   }
+}
+
+.contact__ico {
+   margin: auto;
+
+   fill: currentColor;
+}
