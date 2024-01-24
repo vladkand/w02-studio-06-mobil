@@ -1,8 +1,11 @@
-// .works {
-//    background-color: antiquewhite;
-// }
+.works {
+   @media screen and (max-width: 1199px) {
+      display: none;
+   }
+}
 
 .works__list {
+   //
    display: flex;
    flex-wrap: wrap;
    margin-top: 20px;
@@ -20,6 +23,7 @@
 }
 
 .works-list__item {
+   flex-basis: calc(100% / 3 - 30px);
    margin-top: 30px;
    margin-left: 30px;
 
