@@ -9,5 +9,12 @@
 }
 
 .header__wrapper {
-   @include flexFull();
+   @media screen and (max-width: 767px) {
+      padding-top: 16px;
+      padding-bottom: 16px;
+   }
+
+   @media screen and (min-width: 768px) {
+      @include flexFull();
+   }
 }

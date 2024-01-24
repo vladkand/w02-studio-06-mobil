@@ -1,6 +1,16 @@
 //
 .main-nav {
-   margin-left: 93px;
+   // mobile
+   display: none;
+   // =========
+   // tablet ==>
+   @media screen and (min-width: 768px) {
+      display: block;
+      margin-left: 88px;
+
+      outline: 1px solid green;
+   }
+   // margin-left: 93px;
 }
 
 .nav-list {

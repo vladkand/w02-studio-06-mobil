@@ -11,8 +11,15 @@ body {
 }
 
 .section {
-   padding-top: 94px;
-   padding-bottom: 94px;
+   // mobile ==>
+   padding-top: 60px;
+   padding-bottom: 60px;
+
+   // tablet ==>
+   @media screen and (min-width: 1200px) {
+      padding-top: 94px;
+      padding-bottom: 94px;
+   }
 }
 
 .no-padding {
@@ -20,11 +27,25 @@ body {
 }
 
 .container {
-   width: 1200px;
+   // ==> mobile
    padding-left: 15px;
    padding-right: 15px;
    margin-left: auto;
    margin-right: auto;
+
+   // mobile
+   @media screen and (min-width: 480px) {
+      width: 480px;
+   }
+
+   // tablet ==>
+   @media screen and (min-width: 768px) {
+      width: 768px;
+   }
+   // desck
+   @media screen and (min-width: 1200px) {
+      width: 1200px;
+   }
 
    outline: 1px solid tomato;
 }
