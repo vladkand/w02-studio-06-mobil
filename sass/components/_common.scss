@@ -41,10 +41,14 @@ body {
    // tablet ==>
    @media screen and (min-width: 768px) {
       width: 768px;
+      margin-left: auto;
+      margin-right: auto;
    }
    // desck
    @media screen and (min-width: 1200px) {
       width: 1200px;
+      margin-left: auto;
+      margin-right: auto;
    }
 
    outline: 1px solid tomato;
